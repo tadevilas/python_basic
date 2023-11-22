@@ -1,0 +1,8 @@
+2023-02-21 21:37:07,110 - root - INFO - Entering into the function
+2023-02-21 21:37:07,111 - root - WARNING - Entering into try
+2023-02-21 21:37:07,111 - root - ERROR - Error in execution
+2023-02-21 21:37:07,111 - root - ERROR - Exception occured: division by zero
+Traceback (most recent call last):
+  File "C:\Users\e105301\AppData\Local\Temp/ipykernel_29600/1635484220.py", line 9, in division
+    div = x/y
+ZeroDivisionError: division by zero

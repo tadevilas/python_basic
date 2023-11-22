@@ -1,0 +1,6 @@
+It has 67 neurons for each layer. There is a batch normalization after the first hidden layer, 
+        followed by 1 neuron hidden layer. Next, the Dropout layer drops 15% of the neurons before the values are
+        passed to 3 more neuron hidden layers. Finally, the output layer has one neuron containing the probability value. 
+        See Figure 4 for the illustration. Now that we have the optimal hyperparameters and layers with the estimated accuracy 
+        of 0.7684, let’s fit it into the training dataset. Eventually, we get an accuracy of 0.7681 for the validation dataset. 
+        The notebook for this article is made available here.
